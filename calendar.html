@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body {margin:0;}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="qr.html">Quiz Review</a></li>
+  <li><a href="homeworks.html"></a>Homeworks</li>
+  <li><a href="calendar.html">Calendar</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;height:1500px;">
+  <h1></h1>
+  <h2></h2>
+  <h2></h2>
+
+</div>
 </head>
 <body>
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=MGJvOGpwbHNpdnM0b3Q1YXAxamhnbnAzc2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
